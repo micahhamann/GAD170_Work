@@ -15,11 +15,17 @@ public class ChallengeTwo : MonoBehaviour
             * “My Favourite game is ___, I have played it for ___, it cost me _____, therefore my value of dollar per hour is: ____.” 
      */
 
+    private string favouriteGame = "Super Smash Brothers Ultimate";
+    private int hoursPlayed = 250;
+    private float costOfGame = 120.00f;
+
     // Start is called before the first frame update
     void Start()
     {
         // hint you'll need to do a fraction and some casting in this case we'd want to divide our cost by our hours.
         // make sure you double check this in a calculator, but also consider you may need to convert from ints to floats.
-        float costPerHour = 0;
+        float costPerHour = costOfGame/hoursPlayed;
+
+        Debug.Log("My Favourite game is " + favouriteGame + ". I have played it for " + hoursPlayed + " hours" + ". It cost me $" + costOfGame + ". Therefore my value of dollar per hour is: $" + costPerHour + " per hour.");
     }
 }

@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -19,6 +21,31 @@ public class ChallengeThree : MonoBehaviour
 
     private void Start()
     {
-        float randomNumber = 0;      
+        float randomNumber = UnityEngine.Random.Range(1, 11);
+
+        if (randomNumber == 1)
+        {
+            Debug.Log("The number was exactly one");
+        }
+
+        else if (randomNumber > 3)
+        {
+            Debug.Log("The number was greater than three");
+        }
+
+        else if(randomNumber > 7 || randomNumber < 5)
+        {
+            Debug.Log("The number was greater than 7 or less than 5");
+        }
+
+        else
+        {
+            Debug.Log("The number was 6 or 7");
+        }
+
+        if(randomNumber > 1 || randomNumber < 5 || randomNumber < 5)
+        {
+            Debug.Log("The number was greater than one and less than 5; or the number was greater than 5");
+        }
     }
 }
