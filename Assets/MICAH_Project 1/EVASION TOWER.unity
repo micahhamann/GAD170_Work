@@ -180,10 +180,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome WARRIOR to\n <size=80><i><b>       EVASION TOWER  </b></i></size>\n\nYou
-    will be declared the champion once you reach Level 5. Your EVASION stat is the
-    % chance that you will dodge the incoming enemy attack. Choose your actions wisely.\n\nPress
-    SPACEBAR to continue.
+  m_text: "\t\t Welcome WARRIOR to\\n\\n <size=80><i><b>    EVASION TOWER  </b></i></size>\\n\\n\\nDear
+    Player,\\n\\nI am using a different font to the standard Unity font. If this
+    looks all jumbled up, make sure you have PressStart2P as the font used for all
+    text fields in the game. I included this font in the Unity package. You may need
+    to install it in the Font Asset Creator. Hopefully the game runs on your computer
+    just as it does on mine. Enjoy.\n\n\t\t\t\t\t- Micah"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
   m_sharedMaterial: {fileID: 3160149875695527156, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
@@ -309,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 8ec73239530e646ceb4d897cd5da14d1, type: 2}
+  m_Material: {fileID: 2100000, guid: ca2a9ad5e494d4e46ae96587a7411047, type: 2}
   m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -392,15 +394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health:
-
-    Strength:
-
-    EVASION:
-
-    EXP:
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
   m_sharedMaterial: {fileID: 3160149875695527156, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
@@ -534,14 +528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#FFC0CB>Health:</color>
-
-    Strength:
-
-    EVASION:
-
-    EXP:
-
+  m_text: '
 
 '
   m_isRightToLeft: 0
@@ -855,8 +842,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 525, y: -27}
-  m_SizeDelta: {x: 747.146, y: 270.5773}
+  m_AnchoredPosition: {x: 555.71, y: -26.071}
+  m_SizeDelta: {x: 808.57, y: 268.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732061290
 MonoBehaviour:
@@ -941,7 +928,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -11.458557, z: 0, w: 0}
+  m_margin: {x: 0, y: -11.458557, z: -0.00036621094, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1008,10 +995,13 @@ MonoBehaviour:
   isPlayerTurn: 0
   isEnemyTurn: 0
   isPlayerDodging: 0
+  isPlayerWhacking: 0
   isPlayerDead: 0
   isGameEnd: 0
   isLevelingUp: 0
   hasPlayerWon: 0
+  isStatIncrease: 0
+  isGainingEXP: 0
 --- !u!4 &1826993242
 Transform:
   m_ObjectHideFlags: 0
@@ -1244,9 +1234,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " \u2591\u2591\u2591\u2591   \n \u2591\u2588\u2588\u2588\u2588\u2588  \u2591\n
-    \u2591\u2588-\u2588-  \u2591 \n\u2592\u2592\u2588\u2588\u2588\u2588\u2588  \u2591\n\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2592\u2592\n\u2592\u2592\u2591 
-    \u2591\u2591 \u2592\n \u2591\u2591\u2591\u2591\u2591\n \u2588  \u2588\n"
+  m_text: "\\n\\n\\n\\n\\n\\n\\n\\n                       <color=#02c2ab>\u2591\u2591\u2591\u2591\u2591</color>  
+    \\n                       <color=#02c2ab>\u2591</color>\u2588\u2588\u2588\u2588\u2588 
+    \u2591\\n                       <color=#02c2ab>\u2591</color>\u2588-\u2588- 
+    \u2591    -Lets goooo!\\n                      \u2592\u2592\u2588\u2588\u2588\u2588\u2588 
+    \u2591\\n                      \u2592\u2592<color=#02c2ab>\u2591\u2591\u2591\u2591\u2591\u2591</color>\u2588\u2592\u2592\\n                     
+    \u2592\u2592<color=#02c2ab>\u2591</color>  <color=#02c2ab>\u2591\u2591</color>
+    \u2592\\n                       <color=#02c2ab>\u2591\u2591\u2591\u2591\u2591</color>\\n                      
+    \u2588  \u2588"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
   m_sharedMaterial: {fileID: 3160149875695527156, guid: 073c6f99a2f7648b89792828a4dcd1cf, type: 2}
@@ -1309,7 +1304,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -538.55225, w: 0}
+  m_margin: {x: 0, y: 0, z: -1423.2551, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
