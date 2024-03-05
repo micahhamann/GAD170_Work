@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
+    static public int playerHealth = 50;
+    public string playerName;
+    public GettingReferences 
     // Start is called before the first frame update
-    void Start()
+    public void Attack()
     {
-        
+        Debug.Log(playerName + " attacked!");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Defend()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Space bar pressed down, this runs once until released");
-        }
+        Debug.Log(playerName + " defended.");
     }
 }
