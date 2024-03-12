@@ -6,7 +6,7 @@ public class PlayerInput : MonoBehaviour
 {
     static public int playerHealth = 50;
     public string playerName;
-    public GettingReferences 
+
     // Start is called before the first frame update
     public void Attack()
     {
