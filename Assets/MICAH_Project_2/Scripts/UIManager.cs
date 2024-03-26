@@ -7,6 +7,7 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    public ShipManager shipManager;
     public Image facePortrait;
     public Image hairPortrait;
     public TextMeshProUGUI displayName;
@@ -26,5 +27,13 @@ public class UIManager : MonoBehaviour
     void Update()
     {
        
+    }
+
+    public void DisplayRecruitUI()
+    {
+        facePortrait.sprite = shipManager.crewmate.myFace;
+        hairPortrait.sprite = shipManager.crewmate.myHair;
+        displayName.text = shipManager.crewmate.GetName();
+        displayHobby.text = shipManager.crewmate.GetHobby();
     }
 }

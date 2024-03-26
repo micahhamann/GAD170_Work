@@ -48,11 +48,119 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5ed3ef3bc2c4797a0075df39151ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myName: 
-  myHobby: 
-  myQuote: 
-  mySex: 
-  isParasite: 0
-  shipManager: {fileID: 0}
+  firstNamePool:
+  - Adrian
+  - Malcolm
+  - Tiffany
+  - Russell
+  - Yurgen
+  - Bob
+  - Derrick
+  - Daniel
+  - David
+  - Evan
+  - Fred
+  - Brian
+  - James
+  - Matthew
+  - Sarah
+  - Rebecca
+  - Marvin
+  - Liam
+  - Zurg
+  - Holly
+  lastNamePool:
+  - Peterson
+  - Jackson
+  - Smith
+  - White
+  - Black
+  - Brown
+  - Johnson
+  - Smart
+  - Gosling
+  - Reynolds
+  - Cruise
+  - Streep
+  - Rainbow
+  - McPharlin
+  - McJefferson
+  - Dangerman
+  - Stark
+  - Hogan
+  - Evans
+  - Parker
+  hobbyPool:
+  - Knitting
+  - Fishing
+  - Hiking
+  - Walks on the beach
+  - Video games
+  - Clubbing
+  - Hunting
+  - Licking doorknobs
+  - Cooking
+  - Sleeping
+  maleFacePool:
+  - {fileID: 521494747, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
+  - {fileID: -232679591, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
+  - {fileID: 1856966105, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
+  - {fileID: -1503825898, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
+  - {fileID: 388406386, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
+  - {fileID: 1578907827, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
+  - {fileID: -474326958, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -1005395505, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: 1779306491, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: 217605449, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
+  - {fileID: 992291531, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
+  - {fileID: -1463398823, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
+  - {fileID: -1576205763, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 1551549072, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1012775096, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 237159127, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  maleHairPool:
+  - {fileID: 1765182618, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 1304132464, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 1667792202, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1279783462, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 1813353201, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
+  - {fileID: -549222374, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
+  - {fileID: 946950351, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: 1577198142, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -864129818, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -1387979225, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: 722814500, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -626526300, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -1994224911, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: 1336636888, guid: 016734315965746aaa62e36560b55045, type: 3}
+  - {fileID: -117934238, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: -953398342, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: 2076788639, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: -700521286, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: 989697250, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1739711178, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -794725319, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 170385345, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  femaleFacePool:
+  - {fileID: 263713021, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
+  - {fileID: 1061484143, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
+  - {fileID: 1675001106, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
+  - {fileID: -1400461017, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
+  - {fileID: 2074051378, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
+  - {fileID: 1316558944, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
+  - {fileID: 1296565255, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
+  - {fileID: 237159127, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1012775096, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  femaleHairPool:
+  - {fileID: 609231352, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1350153140, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: 1705003028, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1918883751, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1400301297, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  - {fileID: -1433402159, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: -2027387198, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
+  - {fileID: 1672577999, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
+  - {fileID: 1971339946, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
+  - {fileID: -794725319, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
   myFace: {fileID: 0}
   myHair: {fileID: 0}

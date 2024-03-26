@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2029,138 +2029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e7915178dcc47be8db5792e51ec96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstNamePool:
-  - Billy
-  - Dennis
-  - Sandra
-  - Ryan
-  - Patty
-  - Sneed
-  - Kevin
-  - Tim
-  - Zurg
-  - Bert
-  - Catherine
-  - Stella
-  - Yu
-  - Tyrone
-  - Michael
-  - Helen
-  - Jacko
-  - Peter
-  - Hosea
-  - Lucas
-  lastNamePool:
-  - Hopper
-  - Jackson
-  - Anderson
-  - Brown
-  - White
-  - Smith
-  - Johnson
-  - Black
-  - Jones
-  - Robertson
-  - Voight
-  - Holland
-  - Gosling
-  - Streep
-  - Cruise
-  - Jordan
-  - Kramer
-  - Scott
-  - Barton
-  - Evans
-  hobbyPool:
-  - Fishing
-  - Camping
-  - Sewing
-  - Beach walks
-  - Hiking
-  - Filmmaking
-  - Working on cars
-  - Painting
-  - Kayaking
-  - Playing guitar
-  - Building things
-  - Going to the pub
-  - Collecting action figures
-  - Sniffing humans
-  - Licking door knobs
-  - Collecting hair
-  - Cooking
-  - Hunting exotic animals
-  - Smoking meat
-  - Sky diving
-  maleFacePool:
-  - {fileID: 521494747, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
-  - {fileID: -232679591, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
-  - {fileID: 1856966105, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
-  - {fileID: -1503825898, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
-  - {fileID: 388406386, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
-  - {fileID: 1578907827, guid: 1d872331bd9594532913a6d38fcbddea, type: 3}
-  - {fileID: -474326958, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -1005395505, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: 1981980386, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: 528575173, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -783927761, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -345089826, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: -772183889, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: -1463398823, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: -1563267040, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: -1576205763, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 1551549072, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -1012775096, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 237159127, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  maleHairPool:
-  - {fileID: 1336636888, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -1994224911, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -425926437, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -626526300, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: 722814500, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -1387979225, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -864129818, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: 1577198142, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: 946950351, guid: 016734315965746aaa62e36560b55045, type: 3}
-  - {fileID: -549222374, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: 1813353201, guid: 1dc1baf822dd748848f6b3087bcde503, type: 3}
-  - {fileID: 134731525, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -1400301297, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 595870331, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
-  - {fileID: 1696119479, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
-  - {fileID: -953398342, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
-  - {fileID: 1537516332, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 170385345, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -794725319, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 989697250, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -1739711178, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  femaleFacePool:
-  - {fileID: 1316558944, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
-  - {fileID: -1400461017, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
-  - {fileID: 1521324342, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
-  - {fileID: 2074051378, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
-  - {fileID: 263713021, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: 29254108, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: -1181897790, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: 1675001106, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: 1061484143, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: -1012775096, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 237159127, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  femaleHairPool:
-  - {fileID: -1918883751, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 1304132464, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 1705003028, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -1350153140, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 609231352, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -2027387198, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
-  - {fileID: -1433402159, guid: 8bb2b1e5aaf3b4b54aaa02724ab27f0d, type: 3}
-  - {fileID: 1672577999, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
-  - {fileID: 1971339946, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
-  - {fileID: 1537516332, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 170385345, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: -794725319, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
-  - {fileID: 989697250, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  shipList: []
   crewmatePrefab: {fileID: 9203783567998397937, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
+  uIManager: {fileID: 2146693625}
   crewmate: {fileID: 0}
 --- !u!4 &546010761
 Transform:
@@ -5413,6 +5284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be32347f7d4a4026a8ed21e2e6001b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shipManager: {fileID: 546010760}
   facePortrait: {fileID: 5934144465101772308}
   hairPortrait: {fileID: 2431608405873227483}
   displayName: {fileID: 3778813408672027563}
@@ -5461,111 +5333,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7004427179549801524}
   m_CullTransparentMesh: 1
---- !u!1001 &723973995508082573
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 718636370733617043, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: uIManager
-      value: 
-      objectReference: {fileID: 2146693625}
-    - target: {fileID: 718636370733617043, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: shipManager
-      value: 
-      objectReference: {fileID: 546010760}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 550
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 58
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6019545860246646385, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9203783567998397937, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
-      propertyPath: m_Name
-      value: Crewmate
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0b0c7f3bcb9b54d3f8c2d412ecd4300d, type: 3}
 --- !u!114 &1955154750905147584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6178,4 +5945,3 @@ SceneRoots:
   - {fileID: 546010761}
   - {fileID: 2146693626}
   - {fileID: 125171626}
-  - {fileID: 723973995508082573}

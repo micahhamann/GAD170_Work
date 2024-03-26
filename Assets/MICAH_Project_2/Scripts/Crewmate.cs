@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Crewmate : MonoBehaviour
 {
-    public string myName;
-    public string myHobby;
-    public string myQuote;
-    public bool isMale;
-    public bool isParasite;
-    public ShipManager shipManager;
+    public List<string> firstNamePool = new List<string>();
+    public List<string> lastNamePool = new List<string>();
+    public List<string> hobbyPool = new List<string>();
+    public List<Sprite> maleFacePool = new List<Sprite>();
+    public List<Sprite> maleHairPool = new List<Sprite>();
+    public List<Sprite> femaleFacePool = new List<Sprite>();
+    public List<Sprite> femaleHairPool = new List<Sprite>();
+
+    private string myName;
+    private string myHobby;
+    private string myQuote;
+    private bool isMale;
+    private bool isParasite;
+
     public Sprite myFace;
     public Sprite myHair;
-    public UIManager uIManager;
 
 
     // Start is called before the first frame update
@@ -27,25 +34,34 @@ public class Crewmate : MonoBehaviour
         
     }
 
+    public string GetName()
+    {
+        return myName;
+    }
+
+    public string GetHobby()
+    {
+        return myHobby;
+    }
     public void Setup()
     {
-        myName = shipManager.firstNamePool[Random.Range(0, shipManager.firstNamePool.Count)] + " " + shipManager.lastNamePool[Random.Range(0, shipManager.lastNamePool.Count)];
-        myHobby = shipManager.hobbyPool[Random.Range(0, shipManager.hobbyPool.Count)];
+        myName = firstNamePool[Random.Range(0, firstNamePool.Count)] + " " + lastNamePool[Random.Range(0, lastNamePool.Count)];
+        myHobby = hobbyPool[Random.Range(0, hobbyPool.Count)];
 
         int randomNum = Random.Range(0, 2);
 
         if (randomNum == 0)
         {
             isMale = true;
-            myFace = shipManager.maleFacePool[Random.Range(0, shipManager.maleFacePool.Count)];
-            myHair = shipManager.maleHairPool[Random.Range(0, shipManager.maleHairPool.Count)];
+            myFace = maleFacePool[Random.Range(0,maleFacePool.Count)];
+            myHair = maleHairPool[Random.Range(0, maleHairPool.Count)];
         }
 
         else
         {
             isMale = false;
-            myFace = shipManager.femaleFacePool[Random.Range(0, shipManager.femaleFacePool.Count)];
-            myHair = shipManager.femaleHairPool[Random.Range(0, shipManager.femaleHairPool.Count)];
+            myFace = femaleFacePool[Random.Range(0, femaleFacePool.Count)];
+            myHair = femaleHairPool[Random.Range(0, femaleHairPool.Count)];
         }
     }
 }

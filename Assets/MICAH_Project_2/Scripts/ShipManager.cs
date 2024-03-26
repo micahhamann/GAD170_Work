@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class ShipManager : MonoBehaviour
 {
-    public List<string> firstNamePool = new List<string>();
-    public List<string> lastNamePool = new List<string>();
-    public List<string> hobbyPool = new List<string>();
-    public List<Sprite> maleFacePool = new List<Sprite>();
-    public List<Sprite> maleHairPool = new List<Sprite>();
-    public List<Sprite> femaleFacePool = new List<Sprite>();
-    public List<Sprite> femaleHairPool = new List<Sprite>();
-
+    public List<Crewmate> shipList = new List<Crewmate>();
+    
     public GameObject crewmatePrefab;
+    public UIManager uIManager;
     public Crewmate crewmate;
 
 
@@ -30,6 +25,7 @@ public class ShipManager : MonoBehaviour
             GameObject crewClone = Instantiate(crewmatePrefab);
             crewmate = crewClone.GetComponent<Crewmate>();
             crewmate.Setup();
+            uIManager.DisplayRecruitUI();
         }
     }
 
