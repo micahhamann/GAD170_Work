@@ -21,16 +21,43 @@ public class FizzBuzz : MonoBehaviour
      * hint there are multiple ways to achieve this, if you get stuck, modulo operator (%) will be your friend.
      */
 
+    public int min = 1;
+    public int max = 100;
+    private List<string> numberList = new List<string>();
+    private string printList;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+       for (int i = min; i < max + 1; i++)
+        {
+            if (i % 3 == 0 && i % 5 != 0)
+            {
+                numberList.Add("Fizz");
+            }
+
+            else if (i % 5 == 0 && i % 3 != 0)
+            {
+                numberList.Add("Buzz");
+            }
+
+            else if (i % 3 == 0 && i % 5 == 0)
+            {
+                numberList.Add("Fizz Buzz");
+            }
+
+            else
+            {
+                numberList.Add(i.ToString());
+            }
+        }
+
+        foreach (string str in numberList)
+        {
+            printList += str + "\n";
+        }
+
+        Debug.Log(printList);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
