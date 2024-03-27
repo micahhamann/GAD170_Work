@@ -48,27 +48,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5ed3ef3bc2c4797a0075df39151ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstNamePool:
-  - Adrian
-  - Malcolm
-  - Tiffany
-  - Russell
-  - Yurgen
-  - Bob
-  - Derrick
-  - Daniel
+  maleNamePool:
+  - Peter
+  - Paul
+  - Patrick
+  - Pedro
+  - Philip
+  - Preston
+  - Perry
   - David
-  - Evan
-  - Fred
-  - Brian
-  - James
-  - Matthew
-  - Sarah
-  - Rebecca
-  - Marvin
-  - Liam
-  - Zurg
-  - Holly
+  - Damian
+  - Daniel
+  - Duncan
+  - Fredrick
+  - Frank
+  - Fabio
+  - Timothy
+  - Tyrone
+  - Trevor
+  - Tristan
+  - Thomas
+  - Terry
+  femaleNamePool:
+  - Patty
+  - Penny
+  - Primrose
+  - Paula
+  - Pheobe
+  - Pamela
+  - Piper
+  - Taylor
+  - Tara
+  - Trinity
+  - Tess
+  - Tahlia
+  - Daisy
+  - Danielle
+  - Destiny
+  - Dakota
+  - Faith
+  - Fioana
+  - Felicity
+  - Fanny
   lastNamePool:
   - Peterson
   - Jackson
@@ -91,16 +112,10 @@ MonoBehaviour:
   - Evans
   - Parker
   hobbyPool:
-  - Knitting
-  - Fishing
-  - Hiking
-  - Walks on the beach
-  - Video games
-  - Clubbing
-  - Hunting
-  - Licking doorknobs
-  - Cooking
-  - Sleeping
+  - KNITTING
+  - FISHING
+  - HIKING
+  - GAMING
   maleFacePool:
   - {fileID: 521494747, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
   - {fileID: -232679591, guid: e82a4a4a3202b4acdbbe2f0ed7e6c3e6, type: 3}
@@ -162,5 +177,35 @@ MonoBehaviour:
   - {fileID: 1672577999, guid: e21d5d8e03d944e16b64c7dac391458d, type: 3}
   - {fileID: 1971339946, guid: 3bbd44969bd5b4b039aecc48df223c7f, type: 3}
   - {fileID: -794725319, guid: 2fdfbcaba9e2e418fa45ddd60fa89cda, type: 3}
+  quotePool:
+  - '"I''m ready to work under your leadership."'
+  - '"I smell a parasite nearby..."'
+  - '"My real name is Eugene McParasite."'
+  - '"I won''t let you down!"'
+  - '"I''m hungry."'
+  - '"I think the next guy is a parasite."'
+  - '"I can tell you are going to be a great boss."'
+  - '"Don''t you dare fall in love with me."'
+  - '"Grrrrr..."'
+  - '"I don''t really need this job anyway."'
+  - '"I will work my butt off."'
+  - '"Can I have an advancement in my pay?"'
+  - '"I have never been in space before."'
+  - '"I am not a parasite I swear."'
+  - '"Space travel is my bitch."'
+  - '"Happy to give you a hand."'
+  - '*licks lips*'
+  - '"I have a huge brain."'
+  - '"I like big butts and I cannot lie."'
+  - '"I eat brainsss."'
+  - '"I''ll have my eye on you"'
+  - '"I don''t wear shoes. Free your feet."'
+  - '"Sir, if I were a parasite could I do this?" *sticks fist in mouth*'
+  - '"Parasites... parasites everywhere."'
+  - '"I eat parasites for breakfast."'
+  - '"Yeah I''m a parasite alright."'
+  - '"Who you callin'' a parasite, Bucko?"'
+  isMale: 0
+  isParasite: 0
   myFace: {fileID: 0}
   myHair: {fileID: 0}
