@@ -5923,7 +5923,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: aefe9c17a6169424797c4e0098d47b7b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 991370d091e2b431f92619bc8aae5ee5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7802,7 +7802,7 @@ MonoBehaviour:
   gameMusic: {fileID: 8300000, guid: aefe9c17a6169424797c4e0098d47b7b, type: 3}
   newRecruitButton: {fileID: 8300000, guid: 18c83aa3c731e4fb79eec78a4e1b7549, type: 3}
   parasiteFound: {fileID: 8300000, guid: 44393b367cc954c3e912b4c1013298dd, type: 3}
-  victoryMusic: {fileID: 8300000, guid: d15414bfce4c4464d9f233099e5dd20d, type: 3}
+  victoryMusic: {fileID: 8300000, guid: 2a66e6e74562948ad81957e44494cd78, type: 3}
 --- !u!82 &1206608754
 AudioSource:
   m_ObjectHideFlags: 0
