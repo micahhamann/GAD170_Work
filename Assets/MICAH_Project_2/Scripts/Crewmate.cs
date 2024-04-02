@@ -97,14 +97,7 @@ public class Crewmate : MonoBehaviour
         //The difficulty varible set when you click a difficulty button decides which case to use
         switch (diff)
         {
-            case 1:
-                //If their name starts with P, they are a parasite
-                if (myName.StartsWith("P"))
-                {
-                    isParasite = true;
-                }
-                break;
-
+            //Easy difficulty
             case 0:
                 //If they mention "parasite" in their quote, they are a parasite
                 if (myQuote.Contains("parasite") || myQuote.Contains("Parasite"))
@@ -113,6 +106,16 @@ public class Crewmate : MonoBehaviour
                 }
                 break;
 
+            //Medium difficulty
+            case 1:
+                //If their name starts with P, they are a parasite
+                if (myName.StartsWith("P"))
+                {
+                    isParasite = true;
+                }
+                break;
+
+            //Hard difficulty
             case 2:
                 //If a male has a female name, they are a parasite
                 int rand = Random.Range(0, 2);
@@ -124,6 +127,7 @@ public class Crewmate : MonoBehaviour
 
                 break;
 
+            //Very hard difficulty
             case 3:
                 //If the quote mentions a body part, they are a parasite
                 if(myQuote.Contains("butt") || myQuote.Contains("lips") || myQuote.Contains("head") || myQuote.Contains("feet") || myQuote.Contains("brain") || myQuote.Contains("hand") || myQuote.Contains("mouth") || myQuote.Contains("eye"))
