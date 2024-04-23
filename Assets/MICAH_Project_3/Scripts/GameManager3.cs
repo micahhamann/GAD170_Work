@@ -6,21 +6,22 @@ using UnityEngine.UI;
 
 public class GameManager3 : MonoBehaviour
 {
+    public static GameManager3 instance;
 
     public List<int> coinsCollected = new List<int>();
     public int coinCount = 0;
 
     public TextMeshProUGUI score;
-    public static GameManager3 persist;
+    
 
     
 
     private void Awake()
     {
 
-        if (persist == null)
+        if (instance == null)
         {
-            persist = this;
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
 

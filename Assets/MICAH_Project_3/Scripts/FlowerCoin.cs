@@ -5,39 +5,43 @@ using UnityEngine;
 public class FlowerCoin : MonoBehaviour
 {
 
-    public GameManager3 gameManager;
+    
     public int coinIndex;
 
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        gameManager.coinCount++;
-        gameManager.coinsCollected.Add(coinIndex);
-        Destroy(gameObject);
+        if(other.CompareTag("Player"))
+        {
+            if (GameManager3.instance != null)
+            {
+                GameManager3.instance.coinCount++;
+                GameManager3.instance.coinsCollected.Add(coinIndex);
+            }
+
+            Destroy(gameObject);
+        }
+                
     }
 
-    private void Awake()
-    {
-        gameManager = FindAnyObjectByType<GameManager3>();
-    }
 
     private void Start()
     {
         
 
-        if(gameManager != null)
+        if(GameManager3.instance != null)
         {
-            for (int i = 0; i < gameManager.coinsCollected.Count; i++)
+            for (int i = 0; i < GameManager3.instance.coinsCollected.Count; i++)
             {
-                if (gameManager.coinsCollected[i] == coinIndex)
+                if (GameManager3.instance.coinsCollected[i] == coinIndex)
                 {
                     Destroy(gameObject);
-                    Debug.Log("Already collect coin number " + gameManager.coinsCollected[i]);
+                    Debug.Log("Already collect coin number " + GameManager3.instance.coinsCollected[i]);
                 }
 
                 else
                 {
-                    Debug.Log("Have not collected coin number " + gameManager.coinsCollected[i]);
+                    Debug.Log("Have not collected coin number " + GameManager3.instance.coinsCollected[i]);
                 }
             }
         }

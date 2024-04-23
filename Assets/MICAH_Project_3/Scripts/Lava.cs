@@ -7,6 +7,7 @@ public class Lava : MonoBehaviour
 
     public GameObject respawnPoint;
     public GameObject player;
+    public bool isTouchingLava;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,8 @@ public class Lava : MonoBehaviour
 
         if(other.CompareTag("Player"))
         {
+            isTouchingLava = true;
+
             Debug.Log("Moving player to respawn point");
             Debug.Log("Respawn Point Position: " + respawnPoint.transform.position);
 
@@ -22,7 +25,7 @@ public class Lava : MonoBehaviour
 
             Debug.Log("Current position is" + other.transform.position);
 
-        
+            
         }
                 
     }
@@ -41,6 +44,12 @@ public class Lava : MonoBehaviour
                 Debug.Log("why tho..");
 
             }
+        }
+
+        if(isTouchingLava) 
+        {
+            player.transform.position = respawnPoint.transform.position;
+            isTouchingLava = false;
         }
     }
 
