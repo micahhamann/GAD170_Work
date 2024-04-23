@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MICAH_Project 1/EVASION TOWER.unity
-    guid: d3647b3d542cb62418b81b5ede842259
+    path: Assets/MICAH_Project_3/Scenes/Hub_World.unity
+    guid: 490b3c15c24eecd429edf5cca8ab630d
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/In the well.unity
+    guid: 5d7c04236e9104ade9f40a80ab13aaf6
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/Dark_World.unity
+    guid: 1ccf7ab75cdad4496be0c1eec14cc545
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/House_1.unity
+    guid: 858ece652b0fe424389c726c6c63df34
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/Snow_Fields.unity
+    guid: 6d9f57d70076d4b74aabe64e5576a53f
   m_configObjects: {}

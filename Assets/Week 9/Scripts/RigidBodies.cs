@@ -23,4 +23,6 @@ public class RigidBodies : MonoBehaviour
 
         //myRigid.MovePosition(new Vector3(0, 20, 0));
     }
+
+
 }
