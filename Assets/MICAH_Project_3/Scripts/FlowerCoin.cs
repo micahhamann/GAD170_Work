@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlowerCoin : MonoBehaviour
 {
 
-    
+    public ParticleSystem coinGet;
     public int coinIndex;
 
     // Start is called before the first frame update
@@ -13,13 +13,17 @@ public class FlowerCoin : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            gameObject.GetComponent<CapsuleCollider>().enabled = false;
+
             if (GameManager3.instance != null)
             {
-                GameManager3.instance.coinCount++;
+                GameManager3.instance.CoinCounter += 1;
                 GameManager3.instance.coinsCollected.Add(coinIndex);
             }
 
             Destroy(gameObject);
+            ParticleSystem clone = Instantiate(coinGet, transform.position, Quaternion.identity);
+            Destroy(clone, 2);
         }
                 
     }
@@ -27,7 +31,6 @@ public class FlowerCoin : MonoBehaviour
 
     private void Start()
     {
-        
 
         if(GameManager3.instance != null)
         {

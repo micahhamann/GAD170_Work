@@ -6,51 +6,20 @@ public class Lava : MonoBehaviour
 {
 
     public GameObject respawnPoint;
-    public GameObject player;
-    public bool isTouchingLava;
+    public string deathType = "Death";
+
 
     private void OnTriggerEnter(Collider other)
     {
 
         Debug.Log("Triggered");
 
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            isTouchingLava = true;
 
-            Debug.Log("Moving player to respawn point");
-            Debug.Log("Respawn Point Position: " + respawnPoint.transform.position);
-
-            other.transform.position = respawnPoint.transform.position;
-
-            Debug.Log("Current position is" + other.transform.position);
-
-            
-        }
-                
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            if(player != null)
-            {
-                player.transform.position = respawnPoint.transform.position;
-            }
-
-           else
-            {
-                Debug.Log("why tho..");
-
-            }
+            GameManager3.instance.NewTurn(respawnPoint.transform.position, deathType);
         }
 
-        if(isTouchingLava) 
-        {
-            player.transform.position = respawnPoint.transform.position;
-            isTouchingLava = false;
-        }
     }
 
 }

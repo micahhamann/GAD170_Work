@@ -138,8 +138,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.70592105, w: -0.7082906}
   m_LocalPosition: {x: 0, y: -0.17, z: -4.88}
-  m_LocalScale: {x: 0.6528079, y: 0.046776, z: 0.5325545}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.83, y: 0.059472445, z: 0.67710614}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5916857037331860035}
   - {fileID: 3492156018701355839}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54bb1e3cfcfed4994b3cc18450e605bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  coinGet: {fileID: 198856239026640498, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
   coinIndex: 0
 --- !u!1001 &6853246668058819868
 PrefabInstance:

@@ -36,7 +36,7 @@ public class PlayerMovementNew : MonoBehaviour
     public float groundDistance = 0.4f;
 
     // So the script knows if you can jump!
-    private bool isGrounded;
+    public bool isGrounded;
 
     // How high the player can jump
     public float jumpHeight = 2f;
@@ -115,5 +115,20 @@ public class PlayerMovementNew : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
+    }
+
+    public void Bounce(float bouncePower)
+    {
+        velocity.y = Mathf.Sqrt(bouncePower * -2 * gravity);
+        audioSource.PlayOneShot(jumpClip);
+    }
+
+    public void Push(float pushPower, Vector3 direction)
+    {
+        velocity.y += direction.y * pushPower;
+        velocity.x += direction.x * pushPower;
+        velocity.z += direction.z * pushPower;
+
+        audioSource.PlayOneShot(jumpClip);
     }
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MICAH_Project_3/Scenes/Snow_Fields.unity
     guid: 6d9f57d70076d4b74aabe64e5576a53f
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/House_2.unity
+    guid: 5852f9180ebdb47aa805dbd5138a9824
   m_configObjects: {}
