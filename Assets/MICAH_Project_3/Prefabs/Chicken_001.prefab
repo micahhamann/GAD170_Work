@@ -471,7 +471,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   audioSource: {fileID: 0}
+  player: {fileID: 0}
   falling: {fileID: 8300000, guid: def7ebb452c2644449a8870911a062cc, type: 3}
+  footstepSounds:
+  - {fileID: 8300000, guid: 31636b49d9bf741ca9566f2678eeda76, type: 3}
+  - {fileID: 8300000, guid: f7dbea063fa024008bb4dee98184fce8, type: 3}
+  - {fileID: 8300000, guid: 37d7b7264ee404b0cbe942d076fdde52, type: 3}
+  - {fileID: 8300000, guid: 38365d74443174805b36b156e3527856, type: 3}
+  - {fileID: 8300000, guid: 31ed0e2579fa54969b2c452b6331430c, type: 3}
+  - {fileID: 8300000, guid: d421b28c15a9d459ebd9d1aeaad51b36, type: 3}
+  stepInterval: 0.3
 --- !u!136 &7120016665911875752
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -6,14 +6,18 @@ public class AnimationManager : MonoBehaviour
 {
     public Animator animator;
     public AudioSource audioSource;
+    public PlayerMovementNew player;
 
     public AudioClip falling;
+    public AudioClip[] footstepSounds;
+    public float stepInterval = 0.3f;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        player = GetComponent<PlayerMovementNew>();
     }
 
     // Update is called once per frame
@@ -24,6 +28,8 @@ public class AnimationManager : MonoBehaviour
             audioSource.Stop();
             audioSource.clip = null;
         }
+
+
     }
 
     public void PlayFallingSound()
@@ -35,5 +41,21 @@ public class AnimationManager : MonoBehaviour
         }
             
 
+    }
+
+    private void Step()
+    {
+        AudioClip randomFootstep = footstepSounds[Random.Range(0, footstepSounds.Length)];
+        audioSource.PlayOneShot(randomFootstep);
+    }
+
+    public void PlayFootSteps()
+    {
+
+
+        if(player.isGrounded && (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0))
+        {
+            Step();
+        }
     }
 }

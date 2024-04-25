@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MICAH_Project_3/Scenes/Hub_World.unity
-    guid: 490b3c15c24eecd429edf5cca8ab630d
+    path: Assets/MICAH_Project_3/Scenes/Main_Menu.unity
+    guid: b75aeb71d5ed94406b869d3f4f1b0ca0
   - enabled: 1
     path: Assets/MICAH_Project_3/Scenes/In the well.unity
     guid: 5d7c04236e9104ade9f40a80ab13aaf6
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MICAH_Project_3/Scenes/House_2.unity
     guid: 5852f9180ebdb47aa805dbd5138a9824
+  - enabled: 1
+    path: Assets/MICAH_Project_3/Scenes/Hub_World.unity
+    guid: 490b3c15c24eecd429edf5cca8ab630d
   m_configObjects: {}

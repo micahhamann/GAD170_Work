@@ -6730,9 +6730,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueHorse:
     sentences:
-    - Ouch... that was a long drop.
+    - Ouch... that was a long drop. If only you could fly.
     - There are 5 coins here in the well. Try touch the lava - I DARE YOU!
-    name: 
+  secondDialogue:
+    sentences:
+    - You really fell down the well a second time. Shame on you.
+  hasTriggered: 0
+  index: 6
 --- !u!135 &1623168647
 SphereCollider:
   m_ObjectHideFlags: 0

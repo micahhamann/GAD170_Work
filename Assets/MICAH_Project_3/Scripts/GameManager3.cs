@@ -12,13 +12,16 @@ public class GameManager3 : MonoBehaviour
 
     public List<int> coinsCollected = new List<int>();
     private int coinCount = 0;
+    public List<int> dialogueCompleted = new List<int>();
+    public List<int> roomsCompleted = new List<int>();
 
-    public CanvasGroup pauseMenu;
+    public CanvasGroup fadeSlider;
     public CanvasGroup blackScreen;
 
     public Slider slider;
     public ParticleSystem sliderMove;
     public ParticleSystem allCoinsCollected;
+  
 
     public float fadeSpeed = 0.5f;
 
@@ -75,6 +78,8 @@ public class GameManager3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        fadeSlider.alpha = 0;
+        StartCoroutine(FadeIn());
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -100,16 +105,12 @@ public class GameManager3 : MonoBehaviour
         }
     }
 
-    public void EndTurn()
-    {
-
-    }
 
     public void NewGame()
     {
         if (fadeToBlack == null)
         {
-            fadeToBlack = StartCoroutine(SceneTransition(7));
+            fadeToBlack = StartCoroutine(SceneTransition(0));
             
         }
     }
@@ -128,8 +129,10 @@ public class GameManager3 : MonoBehaviour
         Debug.Log("Coroutine has started");
 
         AudioManager3.instance.PlaySoundFX("slideDown");
+        fadeSlider.alpha = 0;
         while (blackScreen.alpha < 1)
         {
+            
             blackScreen.alpha = Mathf.MoveTowards(blackScreen.alpha, 1, Time.deltaTime * fadeSpeed);
             Debug.Log("moving up");
             yield return null;
@@ -142,11 +145,12 @@ public class GameManager3 : MonoBehaviour
         AudioManager3.instance.PlaySoundFX("slideUp");
         while (blackScreen.alpha > 0)
         {
+            
             blackScreen.alpha = Mathf.MoveTowards(blackScreen.alpha, 0, Time.deltaTime * fadeSpeed);
             Debug.Log("moving down");
             yield return null;
         }
-
+        fadeSlider.alpha = 1;
 
         fadeToBlack = null;
 
@@ -187,6 +191,7 @@ public class GameManager3 : MonoBehaviour
 
         player.GetComponent<PlayerMovementNew>().enabled = false;
         player.GetComponent<CharacterController>().enabled = false;
+        player.GetComponent<Animator>().Play("Listen");
         
     }
 
@@ -194,5 +199,18 @@ public class GameManager3 : MonoBehaviour
     {
         player.GetComponent<PlayerMovementNew>().enabled = true;
         player.GetComponent<CharacterController>().enabled = true;
+        player.GetComponent<Animator>().Play("Idle");
+    }
+
+    public IEnumerator FadeIn()
+    {
+        blackScreen.alpha = 1;
+        while (blackScreen.alpha > 0)
+        {
+            blackScreen.alpha = Mathf.MoveTowards(blackScreen.alpha, 0, Time.deltaTime * 2);
+            yield return null;
+        }
+
+        fadeSlider.alpha = 1;
     }
 }

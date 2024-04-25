@@ -8,6 +8,7 @@ public class NewSceneSelector : MonoBehaviour
 {
 
     public int sceneSelector = 1;
+    
 
     private void OnTriggerEnter(Collider other)
     {

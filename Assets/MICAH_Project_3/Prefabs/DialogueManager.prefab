@@ -46,3 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horseText: {fileID: 0}
   animator: {fileID: 0}
+  chicken: {fileID: 21300000, guid: d395850f5085d42dc88d6b778c7d7658, type: 3}

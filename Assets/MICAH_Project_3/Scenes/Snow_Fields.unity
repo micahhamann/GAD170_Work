@@ -2051,10 +2051,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueHorse:
     sentences:
-    - Hellp neigh-bour! Do you miss your son? I bet you do.
-    - Well go get them coins, sister. There are four in room to collect.
+    - Hello neigh-bour! Do you miss your son? I bet you do.
+    - Well go get them coins, sister. There are 4 in this room to collect.
     - I'll open the door behind you once you collect them all.
-    name: 
+  secondDialogue:
+    sentences:
+    - No more coins in this room. Get out of here.
+    - I am so cold.
+  thirdDialogue:
+    sentences: []
+  hasTriggered: 0
+  index: 1
 --- !u!135 &908094703
 SphereCollider:
   m_ObjectHideFlags: 0

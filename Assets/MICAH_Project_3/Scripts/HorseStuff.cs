@@ -15,15 +15,15 @@ public class HorseStuff : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(other.CompareTag("Player"))
         {
             animator.SetBool("hasCompletedLevel1", true);
             animator.SetBool("hasCompletedLevel2", true);
             animator.SetBool("hasCompletedLevel3", true);
-
         }
+        
     }
 }

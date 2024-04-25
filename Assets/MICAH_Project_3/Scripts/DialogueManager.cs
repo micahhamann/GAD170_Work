@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI horseText;
     public Animator animator;
 
+    public Sprite chicken;
+
 
     private void Awake()
     {
@@ -60,6 +62,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartEndDialogue(Dialogue dialogue)
     {
+        animator.gameObject.GetComponent<Image>().sprite = chicken;
         animator.SetBool("isHorseSpeaking", true);
 
         GameManager3.instance.PausePlayer();

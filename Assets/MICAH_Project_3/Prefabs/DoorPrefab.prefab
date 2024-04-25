@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2402739487124273986}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9997283, z: -0, w: 0.023308672}
-  m_LocalPosition: {x: 0.044710726, y: 1.35, z: -0.018306404}
+  m_LocalRotation: {x: -0, y: 0.99999934, z: -0, w: -0.0011228024}
+  m_LocalPosition: {x: 0.044, y: 1.3499999, z: 0.001}
   m_LocalScale: {x: 1.5699999, y: 2.79, z: 0.07}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7327421225882094670}
-  m_LocalEulerAnglesHint: {x: 0, y: -182.671, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.871, z: 0}
 --- !u!33 &4755750967556273048
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2402739487124273986}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -100,7 +100,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e0c6ea4c9bff4503b40aebdbe29d48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneSelector: 0
+  sceneSelector: 6
 --- !u!1 &3450097285075724379
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 3450097285075724379}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9997283, z: -0, w: 0.023308672}
-  m_LocalPosition: {x: 0.1, y: 1.35, z: -0.15}
+  m_LocalPosition: {x: 0.08, y: 1.35, z: 0.276}
   m_LocalScale: {x: 1.5699999, y: 2.79, z: -0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
