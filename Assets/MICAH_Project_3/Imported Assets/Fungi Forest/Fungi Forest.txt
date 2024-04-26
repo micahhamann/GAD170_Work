@@ -1,0 +1,26 @@
+SonderImagine - Fungi Forest
+
+Fantasy inspired lowpoly/retro forest assets with variations of each.
+
+31 unique meshes with seasonal variations for each one, totaling to 158 prefabs.
+This pack will provide you with woodland assets to help you get started on creating retro inspired zones.
+
+I will be creating more packs to add onto this in the future, focusing on specific biomes.
+If you use this pack, be sure to tell me what you think, so I can improve this pack and future creations.
+
+Number of textures - 87
+Texture dimensions - 32x32-256x256
+Number of meshes - 31
+Number of prefabs - 158
+Minimum polygon count - 12
+Maximum polygon count - 1670
+LOD - N/A
+Types of materials and texture maps - Standard Materials(Albedo Only)/2D Textures
+
+
+1.1.0 - Added one more mesh to add a little more "fungi" to the "forest". 
+Includes 8 new textures and materials for said object. 
+Also includes a small example scene with an example terrain. 
+Changed the packs folder to be "Sonderimagine > Fungi Forest" so my future packs will be in the same folder.
+
+First release

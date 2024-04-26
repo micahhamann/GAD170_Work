@@ -1,0 +1,296 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714118250412528, "dur":11030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250423598, "dur":2427, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250426085, "dur":186, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250429611, "dur":638, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1714118250426317, "dur":4486, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250430804, "dur":150067, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250580997, "dur":3026, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714118250426226, "dur":4587, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714118250430816, "dur":2005, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714118250433195, "dur":600, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1714118250433914, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1714118250434092, "dur":330, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250434424, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250434671, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250434938, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250435187, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250435356, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250435610, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250435883, "dur":613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250436659, "dur":385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250437045, "dur":998, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250438044, "dur":1358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250439404, "dur":3969, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250443375, "dur":5691, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250449068, "dur":1910, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250450980, "dur":3848, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/micahhamann/GAD170_Work/Chicken Build/Chicken Quest 64/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250454837, "dur":977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250455816, "dur":1378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250457196, "dur":1133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250458331, "dur":538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250458871, "dur":4186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250463061, "dur":1379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250464507, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714118250433796, "dur":31167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714118250465190, "dur":114596, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714118250580550, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714118250426234, "dur":4589, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250430829, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250431312, "dur":354, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250431666, "dur":453, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250432119, "dur":728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250433874, "dur":256, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714118250434226, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714118250434825, "dur":357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1714118250435211, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1714118250435617, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714118250435616, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714118250436248, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714118250436716, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1714118250437467, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250437227, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1714118250437550, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1714118250437829, "dur":2065, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250437827, "dur":2068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250439992, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250440270, "dur":7116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1714118250440268, "dur":7119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1714118250447404, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1714118250447715, "dur":6409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250447714, "dur":6411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250454154, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250454413, "dur":712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250454412, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250455143, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250455456, "dur":2497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250455454, "dur":2500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250458042, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250458347, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250458346, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250458799, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250459122, "dur":2059, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250459121, "dur":2061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250461198, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250461488, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250461727, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250462042, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250462287, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250462609, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250462897, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250463186, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250463476, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250464295, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250464849, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250465294, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250465784, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250466181, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250466517, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250466879, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250467192, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250469936, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250470905, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250471257, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250471640, "dur":315, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250471958, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250472269, "dur":165, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250472437, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250473017, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250473711, "dur":161, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714118250473133, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250473899, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250474178, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250474548, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250474825, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250475109, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250475807, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250476223, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714118250476714, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714118250476959, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250477237, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250477491, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714118250477711, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250478609, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714118250478741, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714118250479050, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250479362, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714118250479794, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714118250480021, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250480480, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1714118250480985, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250481420, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1714118250481932, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1714118250482140, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714118250482418, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714118250482677, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714118250483154, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714118250483676, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1714118250484082, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714118250484378, "dur":96476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250426253, "dur":4583, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250430841, "dur":424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250431266, "dur":405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250431672, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250432142, "dur":713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250432865, "dur":599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1714118250432860, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1714118250433817, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1714118250434483, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1714118250434977, "dur":576, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250434975, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250435900, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250435569, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250436101, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1714118250436381, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1714118250436788, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250436787, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250437372, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1714118250437732, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714118250437980, "dur":9706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250437979, "dur":9708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250447718, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250447977, "dur":7053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250447976, "dur":7056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250455044, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250455345, "dur":1460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250455344, "dur":1463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250456823, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250457091, "dur":1170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250457090, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250458310, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250458547, "dur":685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250458546, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250459240, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250459323, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250459596, "dur":950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250459595, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250460589, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250460916, "dur":2146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250460915, "dur":2148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250463079, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250463348, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250463615, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250464309, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250464839, "dur":407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250465394, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250465802, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250466331, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250466395, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250466957, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250467227, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250467526, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250467780, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250468022, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250468261, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250468486, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250470402, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250470827, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250471627, "dur":172, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250471357, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250471828, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250472101, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250472424, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250472773, "dur":295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250473170, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250473743, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250474407, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250474972, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250475466, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250475977, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250476375, "dur":151, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714118250476528, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714118250477029, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250477632, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250477873, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1714118250478103, "dur":249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250478366, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714118250478901, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250479286, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1714118250479615, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714118250479914, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250480301, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1714118250480560, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1714118250480867, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250481413, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250481675, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250482299, "dur":234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1714118250482550, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1714118250482808, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1714118250483227, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1714118250483489, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250483765, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714118250484100, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1714118250484410, "dur":96476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250426310, "dur":4543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250430855, "dur":491, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250431347, "dur":393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250431740, "dur":408, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250432148, "dur":719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250433974, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250434498, "dur":645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250434497, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250435192, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250435909, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714118250436303, "dur":470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250436302, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250436784, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250437274, "dur":672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250437273, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250437981, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714118250438301, "dur":1422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714118250438300, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714118250439741, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714118250440119, "dur":357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1714118250440484, "dur":10240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250440483, "dur":10242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250450883, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250451528, "dur":3280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250451527, "dur":3282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250454828, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250455178, "dur":844, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250455177, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250456041, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250456335, "dur":1032, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250456334, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250457439, "dur":303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250457773, "dur":1035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250457771, "dur":1037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250459224, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250458850, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250459302, "dur":4332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250459300, "dur":4335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250463650, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250464225, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250464704, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250465232, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250465289, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250465766, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250466100, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250466359, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250466698, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250467064, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250469993, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250470751, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250470442, "dur":389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250470914, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250471663, "dur":303, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250471421, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250471995, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250472315, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250472578, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250472933, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250473331, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250473651, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250474101, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250474375, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250474792, "dur":149, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714118250474944, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250475569, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250476050, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250476410, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/Chicken Quest 64_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250476683, "dur":25635, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250476681, "dur":25638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Chicken Quest 64 (Windows)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250502338, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Chicken Quest 64 (Windows)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714118250502706, "dur":78154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714118250588590, "dur":433, "ph":"X", "name": "ProfilerWriteOutput" }
+,

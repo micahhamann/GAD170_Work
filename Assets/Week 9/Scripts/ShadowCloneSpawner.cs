@@ -16,9 +16,9 @@ public class ShadowCloneSpawner : MonoBehaviour
         for (int i = 0; i < numberOfShadowClones; i++)
         {
             // I also want to spawn them in with some randomness to their spawn position.
-            float x = hitPoint.x;
-            float y = hitPoint.y;
-            float z = hitPoint.z;
+            float x = hitPoint.x + Random.Range(-10, 10);
+            float y = hitPoint.y + Random.Range(-10, 10);
+            float z = hitPoint.z + Random.Range(-10, 10);
 
             // call the spawn function
             SpawnNaruto(new Vector3(x, y, z));
@@ -28,18 +28,20 @@ public class ShadowCloneSpawner : MonoBehaviour
     private void SpawnNaruto(Vector3 spawnPoint)
     {
         // spawn in the naruto prefab using the spawn point.
-        
+        Instantiate(narutoPrefab, spawnPoint, narutoPrefab.transform.rotation);
     }
 
     public void AddNaruto(Naruto clone)
     {
         // add the clone coming in to the list of all.
+        allNarutosClones.Add(clone);
        
     }
 
     public void RemoveNaruto(Naruto clone)
     {
         // remove the clone coming in, from the list of all.
+        allNarutosClones.Remove(clone);
         
     }
 }
